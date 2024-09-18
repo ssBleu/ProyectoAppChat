@@ -13,10 +13,10 @@
         android:theme="@style/Theme.HolaMundo"
         tools:targetApi="31">
         <activity
-            android:name=".MenuActivity"
+            android:name=".ChatActivity"
             android:exported="false" />
         <activity
-            android:name=".ChatActivity"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
