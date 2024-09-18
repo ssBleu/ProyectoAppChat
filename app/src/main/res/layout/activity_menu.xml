@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_primary"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/top_menu"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a LinguaConnect!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/my_text_primary"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explora tus chats y conéctate con personas \n
+de todo el mundo, sin barreras de idioma."
+            android:textSize="16sp"
+            android:textColor="@color/my_text_secondary"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="Iniciar nuevo chat"
+            android:backgroundTint="@color/color05"
+        />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="Contactos"
+            android:backgroundTint="@color/color07"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="Chats Recientes"
+            android:backgroundTint="@color/color03"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
