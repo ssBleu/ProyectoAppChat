@@ -17,7 +17,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="428dp"
-            android:layout_height="197dp"
+            android:layout_height="200dp"
             app:srcCompat="@drawable/top_menu" />
 
         <TextView
