@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="88dp"
         android:layout_height="16dp"
-        android:text="PAG INICIO"
+        android:text="activity_main.xml"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"
